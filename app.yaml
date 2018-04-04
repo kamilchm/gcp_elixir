@@ -1,0 +1,5 @@
+service: elixir
+env: flex
+runtime: gs://elixir-runtime/elixir.yaml
+runtime_config:
+    release_app: gcp_elixir
